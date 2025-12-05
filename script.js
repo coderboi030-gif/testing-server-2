@@ -1,6 +1,6 @@
         $.ajax({
             method: "PUT",
-            url: "https://api.github.com/repos/OWNER/REPO/contents/PATH/TO/FILE.txt",
+            url: "https://api.github.com/repos/coderboi030-gif/testing-server-2/FILE.txt",
             headers: {
                 "Authorization": "token YOUR_GITHUB_TOKEN" // Replace with your personal access token
             },
@@ -20,3 +20,4 @@
         .fail(function(jqXHR, textStatus, errorThrown) {
             console.error("Error updating file: " + textStatus + ", " + errorThrown);
         });
+

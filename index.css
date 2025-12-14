@@ -69,7 +69,7 @@ footer>div>label{
 footer>a{
     color: rgb(28, 28, 28);
     position:absolute;
-    bottom: -100px;
+    bottom: 0px;
     right: 10px;
     text-align: right;
 }
@@ -141,4 +141,5 @@ footer>a{
         text-align: right;
     }
 }
+
 
